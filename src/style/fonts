@@ -1,0 +1,26 @@
+import React from "react";
+import { Text, View, StyleSheet } from "react-native";
+import * as Font from "expo-font";
+
+let customFonts = { "Fruit Days": require("/assets/fonts/Fruit Days.ttf") };
+
+export default class fonts extends React.Component {
+  state = {
+    fontsLoaded: false,
+  };
+
+  async _loadFontsAsync() {
+    await Font.loadAsync(customFonts);
+    this.setState({ fontsLoaded: true });
+  }
+
+  componentDidMount() {
+    this._loadFontsAsync();
+  }
+
+  render() {
+    if (!this.state.fontsLoaded) {
+      return null;
+    }
+  }
+}
