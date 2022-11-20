@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 const mooonVersion = {
-  darkpurple: "#302C46",
+  darkpurple: "302C46",
   mediumtextpurple: "5A518B",
   brighthornpurple: "5C518F",
   whitepurple: "EEEDF0",

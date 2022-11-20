@@ -21,7 +21,7 @@
   "private": true,
   "rnpm": {
     "assets": [
-	  "./assets/fonts/"
+      "./assets/fonts/Fruit Days.ttf"
     ]
   }
 }
