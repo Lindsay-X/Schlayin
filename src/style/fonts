@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View, StyleSheet } from "react-native";
-import * as Font from "expo-font";
+import { useFonts } from 'expo-font';
 
 let customFonts = { "Fruit Days": require("/assets/fonts/Fruit Days.ttf") };
 
