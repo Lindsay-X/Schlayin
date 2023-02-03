@@ -1,2 +1,2 @@
 # Our amazing mooon
-Although there has been an in awareness for mental health and environmental consciousness, we found that a lot of people tend to prioritize convenience and academic or career-driven goals. This may be the case because most of the self-care and environment sustainability related tasks are displayed to be quite time consuming and inefficient, but we believe that a little can go a long way.
+A self-care and environment sustainability mobile app
